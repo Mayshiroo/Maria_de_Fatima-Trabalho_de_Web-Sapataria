@@ -1,0 +1,112 @@
+body{
+    width:100%;
+    margin: 0 auto;
+    min-width:600px;
+    max-width:2000px
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+#estrutura{
+    display: grid;
+    background-color: #8B928F;
+    grid-template-columns: 1fr;
+    row-gap: 37px;
+    grid-template-rows: 100px auto 100px;
+}
+#Logo{
+    margin: 4px;
+    height:90px;
+}
+#cabecalho{
+    background-color: #1F1F1F;
+    display: flex;
+    justify-content: space-between;
+}
+#conteudo1{
+    background-color: #8B928F;
+}
+#conteudo2{
+    background-color: #8B928F;
+}
+#patinha{
+    background-color: #1F1F1F;
+    display: flex;
+    justify-content: space-between;
+}
+#cabecalho ul{
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+}
+#cabecalho ul li{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 30px;
+}
+#cabecalho ul li a{
+    color: #BF0603;
+    text-decoration: none;
+    font-family: ZCOOL-KuaiLe;
+}
+#patinha ul{
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+}
+#patinha ul li{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 30px;
+}
+#patinha ul li a{
+    color: #BF0603;
+    text-decoration: none;
+    font-family: ZCOOL-KuaiLe;
+}
+#titulo{
+    font-family: Pirata;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    color: #BF0603;
+    font-size: 70px;
+}
+#texto{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 140px;
+    margin-right: 140px;
+    color:#8D0801;
+    font-size: 40px;
+}
+#dog{
+    margin-top:50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+}
+#aviso{
+    margin-top: 30px;
+    font-family: Pirata;
+    margin-left: 40px;
+    color:#BF0603;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+#contudo2{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    color:#8D0801;
+    font-size: 30px;
+    text-align: center;
+}
+@font-face {
+    font-family:ZCOOL-KuaiLe;
+    src: url(Fontes/ZCOOLKuaiLe-Regular.ttf);
+}
+@font-face {
+    font-family: Pirata;
+    src: url(Fontes/PirataOne-Regular.ttf);
+}
